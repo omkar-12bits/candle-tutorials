@@ -34,7 +34,7 @@
 | |`torch.mean(tensor)` |`Tensor::mean_all(&Tensor)` |
 | Max |`torch.max(tensor, dim=1)` |`Tensor::max(&Tensor, 1)` |
 | |`torch.max(tensor, dim=1, keepdim=True)` |`Tensor::max_keepdim(&Tensor, 1)` |
-| |`torch.minimum(tensor, tensor)` |`Tensor::broadcast_maximum(&Tensor)` |
+| |`torch.maximum(tensor, tensor)` |`Tensor::broadcast_maximum(&Tensor)` |
 | | |`Tensor::maximum(&Tensor, &Tensor/Scalar)` |
 | Min |`torch.min(tensor, dim=1)` |`Tensor::min(&Tensor, 1)` |
 | |`torc.min(tensor, dim=1, keepdim=True) ` |`Tensor::min_keepdim(&Tensor, 1)` |
